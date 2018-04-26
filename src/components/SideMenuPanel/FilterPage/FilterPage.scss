@@ -1,0 +1,23 @@
+.Container{
+   background: #182130;
+   width: 100%;	
+   padding: 100px;
+   transform: translateY(100px);
+   opacity: 0;
+   transition: all 0.3s;
+}
+
+.Container_Image{
+   height:100%;	
+
+   img{
+   	 max-height: 298px;
+     max-width: 100%;
+   }
+}
+
+.Active{
+  opacity:1;
+  transform: translateY(0px);
+}
+

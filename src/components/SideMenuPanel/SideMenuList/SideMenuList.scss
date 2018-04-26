@@ -1,0 +1,26 @@
+.Container{
+	z-index: 99999999;
+	position: relative;
+	height: 100%;
+	background: #0f1828;	
+  width:100%;
+  max-width:90px;
+	li{ 
+      height:90px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.3s;
+        &:hover{
+        	background-color: #4e30d6;
+        }
+        img{
+        	height: 30px;
+        }
+	} 
+} 
+
+.Active{
+	background-color: #4e30d6;
+}

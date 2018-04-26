@@ -1,0 +1,33 @@
+.Container{
+    width: 80%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.Container{
+    ul{
+     display: flex;
+        li{
+         margin-left: 15px;
+         &:hover {
+          a{
+            color:rgb(65, 60, 138);
+           }
+         }
+
+         a{
+          transition: all 0.5s;
+          color:#000;
+         }
+        }
+    }
+}
+
+
